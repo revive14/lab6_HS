@@ -15,4 +15,6 @@ class personType {
 public:
 
 	personType(string firstName = " ", string lastName= " "  );
+
+	void print(string firstName, string lastName);
 };
