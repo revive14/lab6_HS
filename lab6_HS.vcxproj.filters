@@ -18,12 +18,21 @@
     <ClInclude Include="personType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dateType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="billType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="personType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dateType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

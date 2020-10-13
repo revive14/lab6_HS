@@ -139,9 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="billType.h" />
+    <ClInclude Include="dateType.h" />
     <ClInclude Include="personType.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dateType.cpp" />
     <ClCompile Include="personType.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>

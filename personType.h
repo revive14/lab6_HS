@@ -1,20 +1,36 @@
-#pragma once
+#ifndef PERSON_TYPE_H
+
+
 
 #include <iostream>
 #include <iomanip>
 #include <string>
 
-using namespace std;
+
 
 
 
 class personType {
-	string firstName;
-	string lastName;
+protected:
+	std::string firstName;
+	std::string lastName;
 	
 public:
 
-	personType(string firstName = " ", string lastName= " "  );
+	personType(std::string fName = " ", std::string lName= " "  );
 
-	void print(string firstName, string lastName);
+	void print() const;
+
+	void setName(std::string fName, std::string lName);
+
+	std::string  getFirstName() const;
+
+	std::string  getLastName() const;
+
+
+	
 };
+
+
+
+#endif // !PERSON_TYPE_H
