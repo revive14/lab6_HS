@@ -1,7 +1,13 @@
+/*
+Hamza Shaikh
+COSC 1337
+lab 6
 
-
+*/
 #ifndef DATE_TYPE_H
+#define DATE_TYPE_H	
 
+#include <iostream>
 
 
 
@@ -10,6 +16,8 @@ class dateType {
 	int dMonth;
 	int dDay;
 	int dYear;
+
+public:
 
 	dateType(int mon = 1, int day = 1, int year = 1900);
 

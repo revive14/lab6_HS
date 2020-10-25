@@ -24,15 +24,30 @@
     <ClInclude Include="billType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="doctorType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patientType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="personType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dateType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doctorType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="billType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="patientType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

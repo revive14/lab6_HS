@@ -141,12 +141,17 @@
   <ItemGroup>
     <ClInclude Include="billType.h" />
     <ClInclude Include="dateType.h" />
+    <ClInclude Include="doctorType.h" />
+    <ClInclude Include="patientType.h" />
     <ClInclude Include="personType.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="billType.cpp" />
     <ClCompile Include="dateType.cpp" />
+    <ClCompile Include="doctorType.cpp" />
+    <ClCompile Include="patientType.cpp" />
     <ClCompile Include="personType.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

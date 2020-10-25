@@ -1,4 +1,10 @@
+/*
+Hamza Shaikh
+COSC 1337
+Lab 06
+*/
 #ifndef PERSON_TYPE_H
+#define PERSON_TYPE_H
 
 
 
